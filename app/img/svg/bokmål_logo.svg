@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="104px" height="19px" viewBox="0 0 104 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>bokmål_logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1368" height="51"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="header" transform="translate(-20.000000, -17.000000)">
+            <g>
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Rectangle-2">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <rect stroke="#F1EFF3" stroke-width="1" x="0.5" y="0.5" width="1367" height="50"></rect>
+                </g>
+                <g id="bokmål_logo" mask="url(#mask-2)" font-weight="600"  line-spacing="32" letter-spacing="5" font-size="18">
+                    <g transform="translate(20.000000, 16.000000)" id="bokmål">
+                        <text>
+                            <tspan x="7.39" y="17" fill="#2B292D">BOKMÅL</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

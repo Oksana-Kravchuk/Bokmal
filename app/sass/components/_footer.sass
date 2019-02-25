@@ -1,0 +1,111 @@
+.footer
+	z-index: 2
+	position: relative
+	&__container
+		padding-top: 32px
+		padding-left: 7.1rem
+		padding-right: 7.2rem
+		display: flex
+		justify-content: space-around
+		color: $color-grey-text
+		font-size: 14px
+		font-weight: 600
+		letter-spacing: 0.88px
+		line-height: 17px
+		background: $color-footer-background
+	&__subscription
+		width: 30%
+		margin-right: 20px
+		&-input
+			display: flex
+			justify-content: space-between
+			align-items: center
+			margin-bottom: 16px
+		&-hint
+			color: $color-dark-text
+			font-size: 16px
+			line-height: 20px
+		&-inner
+			width: 65%
+			height: 20px
+			border: none
+			background:  $color-footer-background
+			outline: none
+			position: relative
+			top: 8px
+		&-button
+			height: 17px
+			width: 24px
+			cursor: pointer
+			background: url("../img/svg/sprite.view.svg#arrow-right")
+			background-repeat: no-repeat
+			background-size: cover
+			border: none
+			padding: 0
+			outline: none
+			&:hover
+				width: 33px
+				background: url("../img/svg/sprite.view.svg#arrow-right_hover")
+				background-repeat: no-repeat
+				background-size: cover
+				background-position: center
+		&-line
+			height: 1px
+			background: $color-dark-text
+
+	&__social
+		margin-right: 20px
+		&-list
+			padding: 0
+			margin: 0
+			display: flex
+		&-item
+			display: block
+			list-style: none
+			cursor: pointer
+			margin-right: 32px
+
+	&__facebook-icon
+			height: 25px
+			fill: #2B292D
+			width: 23px
+			&:hover
+				fill: #4460A0
+	&__twitter-icon
+			height: 22px
+			fill: #2B292D
+			width: 26px
+			&:hover
+				fill: #00AAEC
+	&__googleplus-icon
+			height: 24px
+			fill: #2B292D
+			width: 38px
+			&:hover
+				fill: #f94230
+	&__about
+		width: 31%
+		margin-bottom: 62px
+	&__text
+		font-size: 12px
+		line-height: 20px
+		margin: 0
+		font-weight: 400
+		text-align: justify
+
+
+.footer-title
+	margin-bottom: 32px
+
+
+.modal
+	display: none
+	position: fixed
+	z-index: 1
+	left: 75.6px
+	top: 0
+	width: 1368px
+	height: 100%
+	overflow: auto
+	background-color: rgb(0,0,0)
+	background-color: rgba(0,0,0,0.6)

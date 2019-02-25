@@ -1,0 +1,357 @@
+@@include('template/head.html')
+
+<body class="body">
+	<div class="container">
+		<div class="wrapper-main">
+
+			@@include('template/header-page-all.html')
+
+			<div class="wrapper-body">
+				<aside class="aside">
+					<div class="aside__block aside__block_page-all">
+						<svg class="aside__open aside__open_page-all" id="aside__open">
+							<use xlink:href="../img/svg/sprite.symbol.svg#burger"></use>
+						</svg>
+						<svg class="aside__close aside__close_page-all" id="aside__close">
+							<use xlink:href="../img/svg/sprite.symbol.svg#x"></use>
+						</svg>
+					</div>
+					<div class="aside__main aside__main_page-all" id="aside__main">
+						<ul class="aside__menu menu">
+							<li class="menu__item">
+								<a href="#" class="menu__link menu__link_page-all">Головна</a>
+								<div class="menu__mark menu__mark_page-all"></div>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link menu__link_page-all">ТОП</a>
+							</li>
+							<li class="menu__item">
+								<a href="for-all-preview.html" class="menu__link menu__link_page-all">Огляди</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link menu__link_page-all">Корисні статті</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link menu__link_page-all">Новини</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link menu__link_page-all">Авторська колонка</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link menu__link_page-all">Інтерактив</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link menu__link_page-all">Літклуб</a>
+							</li>
+						</ul>
+					</div>
+				</aside>
+				<div class="main">
+					<section class="background">
+						<img src="../img/bears.jpg" alt="main-picture" class="background__image">
+						<div class="background__description">
+							<div class="background__category">Корисні статті</div>
+							<h1 class="background__header">Тварини Патріка Джорджа: врятуй їх усіх</h1>
+							<div class="background__info article-info">
+								<div class="article-info__calendar"></div>
+								<div class="article-info__date">1 Жовтня, 2017</div>
+								<div class="article-info__eye"></div>
+								<div class="article-info__views">980</div>
+							</div>
+							<div class="background__read">
+								<button class="background__button read-button">
+									<a href="#" class="read-button__link">Читати</a>
+								</button>
+								<svg class="background__bookmark read-bookmark">
+									<use xlink:href="../img/svg/sprite.symbol.svg#bookmark"></use>
+								</svg>
+							</div>
+						</div>
+					</section>
+					<section class="review">
+						<div class="wrapper-item">
+							<ul class="review__sort sort">
+								<li class="sort__item">Сортувати за:</li>
+								<li class="sort__item sort__item_popularity">Популярністю</li>
+								<li class="sort__item sort__item_novelty">Новизною</li>
+							</ul>
+							<div class="article">
+								<div class="review__image">
+									<div class="image-line image-line_color-red"></div>
+								</div>
+								<div class="review__description article-description">
+									<div class="review__title article-title">Огляди</div>
+									<div class="horizontal-dash horizontal-dash_color-red"></div>
+									<div class="review__info article-info">
+										<div class="article-info__calendar"></div>
+										<div class="article-info__date">Сьогодні</div>
+										<div class="article-info__eye"></div>
+										<div class="article-info__views">32</div>
+									</div>
+									<h2 class="article-header article-header_width">Шість пригодницьких історій для літнього читання</h2>
+									<button class="review__button read-button">
+										<a href="#" class="read-button__link">Читати</a>
+									</button>
+									<svg class="review__bookmark read-bookmark">
+										<use xlink:href="../img/svg/sprite.symbol.svg#bookmark"></use>
+									</svg>
+								</div>
+							</div>
+						</div>
+					</section>
+					<section class="category-preview">
+						<div class="wrapper-item">
+							<ul class="category-preview__row">
+								<li class="category-preview__item">
+									<div class="category-preview__title article-title">Корисні статті</div>
+									<div class="category-preview__image-container">
+										<img src="../img/article6.png" alt="" class="category-preview__image">
+										<svg class="category-preview__bookmark read-bookmark">
+											<use xlink:href="../img/svg/sprite.symbol.svg#bookmark"></use>
+										</svg>
+									</div>
+									<div class="article-info">
+										<div class="article-info__calendar"></div>
+										<div class="article-info__date">1 жовтня, 2017</div>
+										<div class="article-info__eye"></div>
+										<div class="article-info__views">980</div>
+									</div>
+									<h3 class="category-preview__header">
+										<a href="#" class="category-preview__link">Найкращі дитячі ілюстратори незалежної України
+										</a>
+									</h3>
+								</li>
+								<li class="category-preview__item">
+									<div class="category-preview__title article-title">Афіша</div>
+									<div class="category-preview__image-container">
+										<img src="../img/article7.png" alt="" class="category-preview__image">
+										<svg class="category-preview__bookmark read-bookmark">
+											<use xlink:href="../img/svg/sprite.symbol.svg#bookmark"></use>
+										</svg>
+									</div>
+									<div class="article-info">
+										<div class="article-info__calendar"></div>
+										<div class="article-info__date">22 вересня, 2017</div>
+										<div class="article-info__eye"></div>
+										<div class="article-info__views">145</div>
+									</div>
+									<h3 class="category-preview__header">
+										<a href="#" class="category-preview__link">Вихідні з дітьми: 9-10 вересня
+										</a>
+									</h3>
+								</li>
+								<li class="category-preview__item">
+									<div class="category-preview__title article-title">Літклуб</div>
+									<div class="category-preview__image-container">
+										<img src="../img/article8.png" alt="" class="category-preview__image">
+										<svg class="category-preview__bookmark read-bookmark">
+											<use xlink:href="../img/svg/sprite.symbol.svg#bookmark"></use>
+										</svg>
+									</div>
+									<div class="article-info">
+										<div class="article-info__calendar"></div>
+										<div class="article-info__date">28 вересня, 2017</div>
+										<div class="article-info__eye"></div>
+										<div class="article-info__views">2045</div>
+									</div>
+									<h3 class="category-preview__header">
+										<a href="#" class="category-preview__link">Літклуб Букмоль: розклад на квітень
+										</a>
+									</h3>
+								</li>
+							</ul>
+						</div>
+					</section>
+					<section class="advice">
+						<div class="wrapper-item">
+							<div class="advice__title article-title">Поради</div>
+							<div class="advice__image-container">
+								<img src="../img/section4_Bg.PNG" alt="" class="advice__image">
+								<div class="image-line image-line_color-red"></div>
+							</div>
+							<div class="advice__description article-description">
+								<svg class="advice__bookmark read-bookmark">
+									<use xlink:href="../img/svg/sprite.symbol.svg#bookmark"></use>
+								</svg>
+								<div class="horizontal-dash horizontal-dash_color-red"></div>
+								<div class="article-info">
+									<div class="article-info__calendar"></div>
+									<div class="article-info__date">Сьогодні</div>
+									<div class="article-info__eye"></div>
+									<div class="article-info__views">32</div>
+								</div>
+								<h2 class="article-header">«Любий щоденнику…»: ваш «настільний» психоаналітик</h2>
+								<button class="advice__button read-button">
+									<a href="#" class="read-button__link">Читати</a>
+								</button>
+							</div>
+						</div>
+					</section>
+					<section class="category-preview teen-review">
+						<div class="wrapper-item">
+							<div class="teen-review__title">teen review</div>
+							<ul class="category-preview__row">
+								<li class="category-preview__item">
+									<div class="category-preview__title article-title">Огляди</div>
+									<div class="category-preview__image-container">
+										<img src="../img/article9.png" alt="" class="category-preview__image">
+										<svg class="category-preview__bookmark read-bookmark">
+											<use xlink:href="../img/svg/sprite.symbol.svg#bookmark"></use>
+										</svg>
+									</div>
+									<div class="article-info">
+										<div class="article-info__calendar"></div>
+										<div class="article-info__date">28 вересня, 2017</div>
+										<div class="article-info__eye"></div>
+										<div class="article-info__views">2045</div>
+									</div>
+									<h3 class="category-preview__header">
+										<a href="#" class="category-preview__link">«Поміж сірих сутінків» Рути Шепетіс: на противагу зброї
+										</a>
+									</h3>
+								</li>
+								<li class="category-preview__item">
+									<div class="category-preview__title article-title">Фільми</div>
+									<div class="category-preview__image-container">
+										<img src="../img/article10.png" alt="" class="category-preview__image">
+										<svg class="category-preview__bookmark read-bookmark">
+											<use xlink:href="../img/svg/sprite.symbol.svg#bookmark"></use>
+										</svg>
+									</div>
+									<div class="article-info">
+										<div class="article-info__calendar"></div>
+										<div class="article-info__date">8 листопада, 2017</div>
+										<div class="article-info__eye"></div>
+										<div class="article-info__views">3045</div>
+									</div>
+									<h3 class="category-preview__header">
+										<a href="#" class="category-preview__link">У столиці запустили соціальний проект «Київ читає»
+										</a>
+									</h3>
+								</li>
+								<li class="category-preview__item">
+									<div class="category-preview__title article-title">Фільми</div>
+									<div class="category-preview__image-container">
+										<img src="../img/article4.png" alt="" class="category-preview__image">
+										<svg class="category-preview__bookmark read-bookmark">
+											<use xlink:href="../img/svg/sprite.symbol.svg#bookmark"></use>
+										</svg>
+									</div>
+									<div class="article-info">
+										<div class="article-info__calendar"></div>
+										<div class="article-info__date">28 вересня, 2017</div>
+										<div class="article-info__eye"></div>
+										<div class="article-info__views">6345</div>
+									</div>
+									<h3 class="category-preview__header">
+										<a href="#" class="category-preview__link">12 фільмів для дітей, знятих за мотивами відомих книжок
+										</a>
+									</h3>
+								</li>
+							</ul>
+						</div>
+					</section>
+					<section class="author-column">
+						<div class="wrapper-item">
+							<div class="article">
+								<div class="author-column__description article-description">
+									<div class="author-column__title article-title">Авторська колонка</div>
+									<div class="author-column__dash"></div>
+									<div class="author-column__info article-info">
+										<div class="article-info__calendar"></div>
+										<div class="article-info__date">22 вересня, 2017</div>
+										<div class="article-info__eye"></div>
+										<div class="article-info__views">3045</div>
+									</div>
+									<h2 class="article-header article-header_formatting">Бути собою разом із Туве Янссон: 5 диваків Долини мумі-тролів</h2>
+									<button class="author-column__button read-button">
+										<a href="#" class="read-button__link">Читати</a>
+									</button>
+									<svg class="author-column__bookmark read-bookmark">
+										<use xlink:href="../img/svg/sprite.symbol.svg#bookmark"></use>
+									</svg>
+								</div>
+								<div class="author-column__image">
+									<div class="image-line image-line_color-red"></div>
+								</div>
+							</div>
+						</div>
+					</section>
+					<section class="category-preview">
+						<div class="wrapper-item">
+							<ul class="category-preview__row">
+								<li class="category-preview__item">
+									<div class="category-preview__title article-title">Огляди</div>
+									<div class="category-preview__image-container">
+										<img src="../img/article1.png" alt="" class="category-preview__image">
+										<svg class="category-preview__bookmark read-bookmark">
+											<use xlink:href="../img/svg/sprite.symbol.svg#bookmark"></use>
+										</svg>
+									</div>
+									<div class="article-info">
+										<div class="article-info__calendar"></div>
+										<div class="article-info__date">15 вересня, 2017</div>
+										<div class="article-info__eye"></div>
+										<div class="article-info__views">569</div>
+									</div>
+									<h3 class="category-preview__header">
+										<a href="#" class="category-preview__link">Альтернативна історія: 4 аніме серіали, які граються з подіями ХХ століття
+										</a>
+									</h3>
+								</li>
+								<li class="category-preview__item">
+									<div class="category-preview__title article-title">Афіша</div>
+									<div class="category-preview__image-container">
+										<img src="../img/article11.png" alt="" class="category-preview__image">
+										<svg class="category-preview__bookmark read-bookmark">
+											<use xlink:href="../img/svg/sprite.symbol.svg#bookmark"></use>
+										</svg>
+									</div>
+									<div class="article-info">
+										<div class="article-info__calendar"></div>
+										<div class="article-info__date">28 вересня, 2017</div>
+										<div class="article-info__eye"></div>
+										<div class="article-info__views">2045</div>
+									</div>
+									<h3 class="category-preview__header">
+										<a href="#" class="category-preview__link">Що робити на вихідних у Києві
+										</a>
+									</h3>
+								</li>
+								<li class="category-preview__item">
+									<div class="category-preview__title article-title">Корисні статті</div>
+									<div class="category-preview__image-container">
+										<img src="../img/article3.png" alt="" class="category-preview__image">
+										<svg class="category-preview__bookmark read-bookmark">
+											<use xlink:href="../img/svg/sprite.symbol.svg#bookmark"></use>
+										</svg>
+									</div>
+									<div class="article-info">
+										<div class="article-info__calendar"></div>
+										<div class="article-info__date">Сьогодні</div>
+										<div class="article-info__eye"></div>
+										<div class="article-info__views">2045</div>
+									</div>
+									<h3 class="category-preview__header">
+										<a href="#" class="category-preview__link">Як вивчають літературу там: досвід Швеції
+										</a>
+									</h3>
+								</li>
+							</ul>
+						</div>
+					</section>
+					<div class="show">
+						<svg class="show__icon">
+							<use xlink:href="../img/svg/sprite.symbol.svg#rotate-ccw"></use>
+						</svg>
+						<div class="show__text">Показати ще</div>
+					</div>
+				</div>
+			</div>
+			@@include('template/footer.html')
+			<div id="modal" class="modal"></div>
+		</div>
+	</div>
+	<script src="js/main.js"></script>
+</body>
+</html>
